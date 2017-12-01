@@ -3,7 +3,7 @@
  * If you need to purge the chat, this is what to us. I will allow you to write !purge 10 and it will
  * then purge the chat of the latest 10 messages.
  *
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Kieran Heron <hello@kieran.pro>
  */
 
