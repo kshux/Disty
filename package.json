@@ -1,0 +1,18 @@
+{
+  "name": "disty",
+  "version": "1.0.0",
+  "description": "Disty is an open source discord bot written in NodeJS.",
+  "main": "disty.js",
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "author": "Kieran Heron <hello@kieran.pro> (https://kieran.pro)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "is-url": "^1.2.2",
+    "request": "^2.83.0",
+    "sqlite": "^2.8.0",
+    "valid-url": "^1.0.9"
+  }
+}

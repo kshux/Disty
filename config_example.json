@@ -1,0 +1,62 @@
+{
+    "app": {
+        "prefix": "!",
+        "botIsPlaying": "use !help",
+        "commandCoolDown": 2500,
+        "inviteLink": "https://discord.gg/lmaothislink",
+        "brandColorPrimary": "B13230",
+        "sendResultsViaDM": false,
+        "guildID": "382498520520720405",
+        "modules": {
+            "purgeTheChat": {
+                "purgeRoles": [
+                    "purge",
+                    "admin"
+                ],
+                "messages": {
+                    "invalidNumber": "You need to specify the amount to delete",
+                    "noParam": "You must specify a user and an amount, or just an amount, of the messages to purge!"
+                }
+            },
+            "botInfo": {
+                "enabled": true,
+                "sendViaDM": false,
+                "author": "DistyBot",
+                "description": "DistyBot is an open source discord bot created by Kieran Heron",
+                "color": "B13230",
+                "footer": "Powered By DistyBot | Created by Kieran Heron <hello@kieran.pro> https://github.com/kshux/disty https://disty.kieran.pro"
+            },
+            "getUsersAvatar": {
+                "enabled": true,
+                "messages": {
+                    "generating": "Grabbing the avatar..."
+                }
+            },
+            "sendDMOnUserJoin": {
+                "enabled": true,
+                "message": "Welcome to the server"
+            },
+            "acceptTheRules": {
+                "enabled": true,
+                "acceptedChannels": [
+                    "rules"
+                ],
+                "messages": {
+                    "wrongChannel": "You can't accept the rules in that channel, please read the rules correctly!"
+                },
+                "alreadyAccepted": "You have already accepted the rules!",
+                "successMessage": "You have accepted the rules and have now been given member rank!",
+                "roleGivenOnSuccess": "Member"
+            },
+            "goneLive": {
+                "enabled": true,
+                "messages": {
+                    "invalidURL": "You need to post a valid URL",
+                    "notTwitchLink": "That is not a twitch link, please post a valid twitch link",
+                    "goneLive": "is now geein hit heal toe here we go"
+                },
+                "liveChannel": "live"
+            }
+        }
+    }
+}
